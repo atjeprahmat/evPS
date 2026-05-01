@@ -233,7 +233,11 @@ def susun_rencana_tindak_lanjut(rata_rata_df, df_summary_percentages, ringkasan_
 
 
 def main():
-    st.set_page_config(layout="wide")
+    st.set_page_config(
+        page_title="Aplikasi Analisis Kepuasan Layanan Rayon",
+        page_icon=":bar_chart:",
+        layout="wide")
+
     st.title("Aplikasi Analisis Kepuasan Layanan Rayon")
     st.subheader("Unggah File Excel")
     st.caption("Pilih file Excel (.xlsx) pada bagian ini agar langsung terlihat saat aplikasi dibuka di desktop maupun mobile.")
